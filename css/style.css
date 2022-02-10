@@ -90,11 +90,11 @@ h1 {
   background-color: rgb(23, 228, 23);
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 480px) {
   main {
     display: grid;
     text-align: left;
-    width: 500px;
+    width: 480px;
     grid-template-columns: 40% 60%;
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 
@@ -116,7 +116,7 @@ h1 {
 
   img {
     grid-area: img;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   #brand {
@@ -130,7 +130,7 @@ h1 {
 
   #brand > p {
     border-left: rgb(24, 172, 24) 3px solid;
-    padding: 0 20px 0 8px;
+    padding: 0 12px 0 8px;
     font-size: 1.4rem;
   }
 
